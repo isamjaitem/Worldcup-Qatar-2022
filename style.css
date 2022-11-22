@@ -1,0 +1,45 @@
+*  {
+margin: 0;
+padding: 0;
+}
+.header{
+    width: 100%;
+    height: 10rem;
+    background: #811538;
+    background-image: url(./pic/pattern.png);
+    clip-path: polygon(0 0, 100% 0%, 100% 99%, 0 89%);
+    border-bottom: 5px solid #5b0d25;
+}
+
+.img-box{
+    width: 100%;
+    height: 10rem;
+    position: absolute;
+    z-index: 1;
+}
+.img-info{
+    height: 100px;
+   margin-top: 80px;
+   margin-left: 70px;
+   -webkit-filter: drop-shadow(5px 5px 5px #222);
+   filter: drop-shadow(5px 5px 5px #222);
+}
+.head-title{
+    direction: rtl;
+    color: aliceblue;
+    font-size: 40px;
+    margin-right: 20px;
+    padding-top: 50px;
+    font-family: 'Rakkas', cursive;
+    font-size: 80px;
+}
+.img1{
+    width: 350px;
+}
+
+.main1{
+    height: 100px;
+}
+.til1{
+    direction: rtl;
+}
